@@ -2,9 +2,70 @@ html {
     background-color: #eeeeee;
 }
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-size: 1.1em;
 }
-h1, h2, h3 {
-    font-family: 'Cormorant Garamond', serif;
+nav, h1, h2, h3 {
+    font-family: 'Martel', Times, serif;
+}
+/* animated header */
+h1 {
+    margin-left: -4.5em;
+}
+h1:hover {
+    animation-duration: 3s;
+    animation-name: firstname;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+@keyframes firstname {
+    from {
+        margin-left: -4.5em;
+    }
+    to {
+        margin-left: .6em;
+    }
+}
+/* navigation bar */
+nav ul {
+    padding-left: 1em;
+    font-size: 1.2em;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    outline: none;
+    text-decoration: none;
+    margin-right: .9em;
+    color: #666666;
+}
+nav ul li:last-child a {
+    margin-right: 0em;
+}
+nav ul li a:hover {
+    font-weight: bold;
+    color: #000000;
+}
+/* resume section format */
+h3 {
+    margin-left: 1em;
+    margin-bottom: 0em;
+}
+p {
+    margin-top: .6em;
+    margin-left: 1.2em;
+}
+li {
+    margin-top: .4em;
+}
+/* date formatting */
+h3, span {
+    display: inline;
+    vertical-align: text-bottom;
+}
+span {
+    font-size: .9em;
+    float: right;
+    margin-right: 46em;
 }
