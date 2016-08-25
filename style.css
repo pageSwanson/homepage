@@ -5,6 +5,19 @@ body {
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 1.1em;
 }
+section {
+    animation-duration: 6s;
+    animation-name: all;
+    margin-left: 0.5em;
+}
+@keyframes all {
+    from {
+        color: #eeeeee;
+    }
+    to {
+        color: #000000;
+    }
+}
 nav, h1, h2, h3 {
     font-family: 'Martel', Times, serif;
 }
