@@ -2,24 +2,12 @@ html {
     background-color: #eeeeee;
 }
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 1.1em;
 }
-section {
-    animation-duration: 6s;
-    animation-name: all;
-    margin-left: 0.5em;
-}
-@keyframes all {
-    from {
-        color: #eeeeee;
-    }
-    to {
-        color: #000000;
-    }
-}
 nav, h1, h2, h3 {
-    font-family: 'Martel', Times, serif;
+    font-family: Times, serif;
+    letter-spacing: .07em;
 }
 /* animated header */
 h1 {
@@ -36,7 +24,7 @@ h1:hover {
         margin-left: -4.5em;
     }
     to {
-        margin-left: .6em;
+        margin-left: .2em;
     }
 }
 /* navigation bar */
@@ -51,34 +39,51 @@ nav ul li a {
     outline: none;
     text-decoration: none;
     margin-right: .9em;
-    color: #666666;
+    color: #999999;
 }
 nav ul li:last-child a {
     margin-right: 0em;
 }
 nav ul li a:hover {
-    font-weight: bold;
     color: #000000;
 }
-/* resume section format */
-h3 {
-    margin-left: 1em;
-    margin-bottom: 0em;
+/* contact formatting */
+address a {
+    outline: none;
+    text-decoration: none;
+    color: #999999;
 }
-p {
-    margin-top: .6em;
-    margin-left: 1.2em;
+address a:hover {
+    font-style: normal;
+    color: #000000;
 }
-li {
-    margin-top: .4em;
+/* resume content formatting */
+section {
+    animation-duration: 6s;
+    animation-name: all;
+    margin-left: 0.3em;
+}
+@keyframes all {
+    from {
+        color: #eeeeee;
+    }
+    to {
+        color: #000000;
+    }
+}
+section h3 {
+    margin: 0em 0em 0em .7em;
 }
 /* date formatting */
-h3, span {
-    display: inline;
-    vertical-align: text-bottom;
+section span {
+    margin: 0em 0em 0em 1.04em;
+    font-size: .8em;
 }
-span {
-    font-size: .9em;
-    float: right;
-    margin-right: 46em;
+section p {
+    width: 60em;
+    margin-left: 2em;
+}
+section ul li{
+    width: 60em;
+    margin-left: .7em;
 }
