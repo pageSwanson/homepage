@@ -6,12 +6,12 @@ body {
     font-size: 1.1em;
 }
 nav, h1, h2, h3 {
-    font-family: Times, serif;
+    font-family: Arial, serif;
     letter-spacing: .07em;
 }
 /* animated header */
 h1 {
-    margin-left: -4.5em;
+    margin-left: -4.6em;
 }
 h1:hover {
     animation-duration: 3s;
