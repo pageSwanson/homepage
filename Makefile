@@ -1,0 +1,2 @@
+resume.html: resume.md style.css
+	pandoc resume.md --from commonmark_x --to html --standalone --strip-comments --section-divs --css style.css -o resume.html --metadata title="Kenneth P Swanson" --metadata lang="en-US"
