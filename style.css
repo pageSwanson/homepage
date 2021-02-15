@@ -11,7 +11,7 @@ nav, h1, h2, h3 {
 }
 /* animated header */
 h1 {
-    margin-left: -4.6em;
+    margin-left: -4.9em;
 }
 h1:hover {
     animation-duration: 3s;
@@ -21,10 +21,10 @@ h1:hover {
 }
 @keyframes firstname {
     from {
-        margin-left: -4.5em;
+        margin-left: -4.9em;
     }
     to {
-        margin-left: .2em;
+        margin-left: .06em;
     }
 }
 /* navigation bar */
@@ -61,7 +61,7 @@ address a:hover {
 section {
     animation-duration: 6s;
     animation-name: all;
-    margin-left: 0.3em;
+    margin-left: 0.06em;
 }
 @keyframes all {
     from {
@@ -86,4 +86,8 @@ section p {
 section ul li{
     width: 60em;
     margin-left: .7em;
+}
+
+.title {
+    display: none;
 }
