@@ -1,9 +1,26 @@
+:root {
+    --eiderdown: #4A3C34;
+    --goose: #EDEDE9;
+    --feather: #5B4C40;
+    --odoriko: #2E5460;
+}
+
 html {
-    background-color: #eeeeee;
+    font-family: Helvetica, sans-serif;
+    background-color: var(--goose);
+    color: var(--eiderdown);
 }
 body {
-    font-family: Arial, sans-serif;
-    font-size: 1.1em;
+    animation-duration: 4s;
+    animation-name: all;
+}
+@keyframes all {
+    from {
+        color: var(--goose);
+    }
+    to {
+        color: var(--eiderdown);
+    }
 }
 nav, h1, h2, h3 {
     font-family: Arial, serif;
@@ -39,55 +56,48 @@ nav ul li a {
     outline: none;
     text-decoration: none;
     margin-right: .9em;
-    color: #999999;
+    color: var(--feather);
 }
 nav ul li:last-child a {
     margin-right: 0em;
 }
 nav ul li a:hover {
-    color: #000000;
+    color: var(--feather);
 }
 /* contact formatting */
 address a {
     outline: none;
     text-decoration: none;
-    color: #999999;
+    color: var(--feather);
 }
 address a:hover {
     font-style: normal;
-    color: #000000;
+    color: var(--feather);
 }
 /* resume content formatting */
 section {
-    animation-duration: 6s;
-    animation-name: all;
     margin-left: 0.06em;
-}
-@keyframes all {
-    from {
-        color: #eeeeee;
-    }
-    to {
-        color: #000000;
-    }
+    text-align: justify;
 }
 section h3 {
-    margin: 0em 0em 0em .7em;
+    margin: 0em .7em 0em .7em;
+    display: inline-block;
 }
 /* date formatting */
-section span {
-    margin: 0em 0em 0em 1.04em;
-    font-size: .8em;
+section p span {
+    float: left;
+    padding-right: 2em;
+    color: var(--odoriko);
 }
 section p {
-    width: 60em;
     margin-left: 2em;
 }
-section ul li{
-    width: 60em;
+section ul li {
     margin-left: .7em;
 }
-
+section p, section ul {
+    width: 64%;
+}
 .title {
     display: none;
 }
