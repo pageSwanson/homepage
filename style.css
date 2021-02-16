@@ -7,6 +7,8 @@
 
 html {
     font-family: Helvetica, sans-serif;
+    font-size: 10pt;
+    line-height: 14pt;
     background-color: var(--goose);
     color: var(--eiderdown);
 }
@@ -22,13 +24,11 @@ body {
         color: var(--eiderdown);
     }
 }
-nav, h1, h2, h3 {
-    font-family: Arial, serif;
-    letter-spacing: .07em;
-}
 /* animated header */
-h1 {
-    margin-left: -4.9em;
+@media only screen {
+	h1 {
+		margin-left: -4.9em;
+	}
 }
 h1:hover {
     animation-duration: 3s;
@@ -75,27 +75,34 @@ address a:hover {
     color: var(--odoriko);
 }
 /* resume content formatting */
-section {
-    margin-left: 0.06em;
-    text-align: justify;
-}
 section h3 {
     margin: 0em .7em 0em .7em;
-    display: inline-block;
 }
 /* date formatting */
 section p span {
     float: left;
     padding-right: 2em;
+    padding-bottom: 1em;
     color: var(--odoriko);
 }
 section p {
     margin-left: 2em;
+    text-align: justify;
 }
-/*
-section p, section ul {
-    width: 64%;
-}*/
+section {
+    display: block;
+    margin: auto;
+}
+@media screen and (min-width: 720px) {
+    section {
+        width: 700px;
+    }
+}
+@media print {
+		section {
+			width: 800px;
+		}
+}
 .title {
     display: none;
 }
