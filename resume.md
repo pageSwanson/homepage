@@ -2,11 +2,11 @@
 __Lives in__
 New Haven, CT
 __E-mail__
-kpswanson@gatech.edu
+[kpswanson@gatech.edu](mailto:kpswanson@gatech.edu)
 __GitHub__
-pageswanson
+[pageswanson](https://github.com/pageswanson)
 __Website__
-pageswanson.github.io/homepage
+[pageswanson.github.io/homepage](https://pageswanson.github.io/homepage)
 
 ## Education
 

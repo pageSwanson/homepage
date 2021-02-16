@@ -62,17 +62,17 @@ nav ul li:last-child a {
     margin-right: 0em;
 }
 nav ul li a:hover {
-    color: var(--feather);
+    color: var(--odoriko);
 }
 /* contact formatting */
-address a {
+address {
     outline: none;
     text-decoration: none;
     color: var(--feather);
 }
 address a:hover {
     font-style: normal;
-    color: var(--feather);
+    color: var(--odoriko);
 }
 /* resume content formatting */
 section {
@@ -92,12 +92,10 @@ section p span {
 section p {
     margin-left: 2em;
 }
-section ul li {
-    margin-left: .7em;
-}
+/*
 section p, section ul {
     width: 64%;
-}
+}*/
 .title {
     display: none;
 }
