@@ -16,4 +16,4 @@ swanson_page_kenneth.pdf: resume.html style.css
 		--user-style-sheet style.css \
 		--print-media-type \
 		--page-size A4 \
-		resume.html swanson_page_kenneth.pdf
+		resume.html ./Downloads/swanson_page_kenneth.pdf

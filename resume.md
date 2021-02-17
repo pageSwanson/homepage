@@ -32,12 +32,12 @@ __Develops applications for large data transfer__ alongside a team of 9 full-sta
 ### Software Developer in Residence / NHFPL - New Haven, Ct
 <span>05 / 2020 → Present</span>
 
-__Serves as a community reference__ for software development resources and learning tools. Leads sessions on a bi-weekly basis with introductions to core web technologies as an entry point to learning code. Offers weekly individual help sessions as office hours for aid in coding of all kinds (JavaScript, HTML, CSS) __Leads an app building series__ teaching newcomers about the development landscape and web technologies targetting mobile devices (NativeScript)
+__Serves as a community reference__ for software development resources and learning tools. Leads sessions on a bi-weekly basis with introductions to core web technologies as an entry point to learning code. Offers weekly individual help sessions as office hours for aid in coding of all kinds (JavaScript, HTML, CSS) __Leads an app-building series__ teaching newcomers about the development landscape and web technologies targetting mobile devices (NativeScript)
 
 ### Programming Systems Teaching Assistant / Georgia Institute of Technology - Atlanta, Ga
 <span>09 / 2016 → 05 / 2017</span>
 
-__Assisted sophomore programmers__ with algorithm development, data structures, and general concepts in theory and design (C, MIPS Assembly)
+__Assisted Sophomore programmers__ with algorithm development, data structures, and general concepts in theory and design (C, MIPS Assembly)
 
 ### Product & Test Engineering Intern / Texas Instruments - Dallas, Tx
 <span>05 / 2016 → 08 / 2016</span>
