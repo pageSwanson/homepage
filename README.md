@@ -1,7 +1,7 @@
 # homepage
 Source of personal site and markdown resume
 
-# Setup
+## Setup
 
 For OSX
 
