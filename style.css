@@ -27,7 +27,7 @@ body {
 /* animated header */
 @media only screen {
 	h1 {
-		margin-left: -4.9em;
+		margin-left: -4.3em;
 	}
 }
 h1:hover {
@@ -38,7 +38,7 @@ h1:hover {
 }
 @keyframes firstname {
     from {
-        margin-left: -4.9em;
+        margin-left: -4.3em;
     }
     to {
         margin-left: .06em;
