@@ -1,113 +1,118 @@
 :root {
-    --eiderdown: #4A3C34;
-    --goose: #EDEDE9;
-    --feather: #5B4C40;
-    --odoriko: #2E5460;
+	--eiderdown: #4A3C34;
+	--goose: #EDEDE9;
+	--feather: #5B4C40;
+	--odoriko: #2E5460;
+	--any-format: #428194;
 }
 
 html {
-    font-family: Helvetica, sans-serif;
-		font-size: 10pt;
-		line-height: 16pt;
-    background-color: var(--goose);
-    color: var(--eiderdown);
+	font-family: Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 16pt;
+	background-color: var(--goose);
+	color: var(--eiderdown);
 }
 body {
-    animation-duration: 4s;
-    animation-name: all;
+	animation-duration: 4s;
+	animation-name: all;
 }
 @keyframes all {
-    from {
-        color: var(--goose);
-    }
-    to {
-        color: var(--eiderdown);
-    }
+	from {
+		color: var(--goose);
+	}
+	to {
+		color: var(--eiderdown);
+	}
 }
-/* animated header */
+/* header */
 @media only screen and (hover: hover) {
 	section h1 {
 		margin-left: -4.3em;
 	}
 	@keyframes firstname {
-	    from {
-	        margin-left: -4.3em;
-	    }
-	    to {
-	        margin-left: .06em;
-	    }
+		from {
+			margin-left: -4.3em;
+		}
+		to {
+			margin-left: .06em;
+		}
 	}
 	section h1:hover {
-    animation-duration: 3s;
-    animation-name: firstname;
-    animation-iteration-count: 2;
-    animation-direction: alternate;
+		animation-duration: 3s;
+		animation-name: firstname;
+		animation-iteration-count: 2;
+		animation-direction: alternate;
 	}
+}
+
+h1 {
+	color: var(--any-format);
 }
 /* navigation bar */
 nav ul {
-    padding-left: 1em;
-    font-size: 1.2em;
+	padding-left: 1em;
+	font-size: 1.2em;
 }
 nav ul li {
-    display: inline;
+	display: inline;
 }
 nav ul li a, address a {
-    margin-right: .9em;
-    color: var(--feather);
-		font-style: oblique;
+	margin-right: .9em;
+	color: var(--feather);
+	font-style: oblique;
 }
 nav ul li:last-child a {
-    margin-right: 0em;
+	margin-right: 0em;
 }
 nav ul li a:hover, address a:hover {
-    font-style: normal;
-    color: var(--odoriko);
+	font-style: normal;
+	color: var(--odoriko);
 }
 
 /* contact formatting */
 address {
-    color: var(--feather);
+	color: var(--feather);
 }
 
 /* resume content formatting */
 section h3 {
-    margin: 0em .7em 0em .7em;
+	margin: 0em .7em 0em .7em;
 }
 section h2 {
-    margin-bottom: .4em;
+	margin-bottom: .4em;
 }
 
 /* date formatting */
 section p span {
-    float: left;
-    padding-right: 2em;
-    padding-bottom: 1em;
-    color: var(--odoriko);
+	float: left;
+	padding-right: 2em;
+	padding-bottom: 1em;
+	color: var(--odoriko);
 }
 section p {
-    margin-left: 2em;
-    text-align: justify;
+	margin-left: 2em;
+	text-align: justify;
 }
 section p span {
 	text-align: left;
 }
 section {
-    display: block;
-    margin: auto;
+	display: block;
+	margin: auto;
 }
 @media screen and (min-width: 720px) {
-    section {
-        width: 800px;
-    }
+	section {
+		width: 800px;
+	}
 }
 @media print {
-		section {
-			width: 840px;
-		}
+	section {
+		width: 840px;
+	}
 }
 
 /* hide title for resume */
 .title {
-    display: none;
+	display: none;
 }
