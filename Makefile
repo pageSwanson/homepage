@@ -1,7 +1,14 @@
 all: resume.html swanson_page_kenneth.pdf
 
 resume.html: resume.md style.css
-	pandoc resume.md --from commonmark_x --to html --standalone --strip-comments --section-divs --css style.css -o resume.html --metadata title="Resume" --metadata lang="en-US"
+	pandoc \
+		resume.md --from commonmark_x \
+		--to html \
+		--standalone \
+		--section-divs \
+		--css style.css \
+		--metadata title="Resume" --metadata lang="en-US" \
+		-o resume.html
 
 swanson_page_kenneth.pdf: resume.html style.css
 	wkhtmltopdf \
