@@ -7,8 +7,8 @@
 
 html {
     font-family: Helvetica, sans-serif;
-    font-size: 10pt;
-    line-height: 14pt;
+		font-size: 10pt;
+		line-height: 16pt;
     background-color: var(--goose);
     color: var(--eiderdown);
 }
@@ -78,6 +78,9 @@ address a:hover {
 section h3 {
     margin: 0em .7em 0em .7em;
 }
+section h2 {
+    margin-bottom: .4em;
+}
 /* date formatting */
 section p span {
     float: left;
@@ -89,18 +92,21 @@ section p {
     margin-left: 2em;
     text-align: justify;
 }
+section p span {
+	text-align: left;
+}
 section {
     display: block;
     margin: auto;
 }
 @media screen and (min-width: 720px) {
     section {
-        width: 700px;
+        width: 800px;
     }
 }
 @media print {
 		section {
-			width: 800px;
+			width: 840px;
 		}
 }
 .title {
