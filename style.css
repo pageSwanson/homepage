@@ -3,7 +3,7 @@
 	--goose: #EDEDE9;
 	--feather: #5B4C40;
 	--odoriko: #2E5460;
-	--any-format: #428194;
+	--bluetrain: #113034;
 }
 
 html {
@@ -30,7 +30,7 @@ body {
 @media only screen and (hover: hover) {
 	section h1 {
 		margin-left: -4.3em;
-	  transition: margin-left 0.6s cubic-bezier(0.12, 0, 0.39, 0);
+		transition: margin-left 1s cubic-bezier(0.12, 0, 0.39, 0);
 	}
 	section h1:hover {
 		margin-left: -0.04em;
@@ -38,7 +38,7 @@ body {
 }
 
 h1 {
-	color: var(--any-format);
+	color: var(--bluetrain);
 }
 
 /* navigation bar */
@@ -75,31 +75,31 @@ section h2 {
 	margin-bottom: 0.4em;
 }
 section p:not(span), section ul {
-    list-style: none;
-    margin: 0.4em 0em 0em 0em;
-    padding-left: 2em;
-	  text-align: justify;
+	list-style: none;
+	margin: 0.4em 0em 0em 0em;
+	padding-left: 2em;
+	text-align: justify;
 }
 section {
-	  display: block;
-	  margin: auto;
+	display: block;
+	margin: auto;
 }
 @media screen and (min-width: 720px) {
-	  section {
-		    width: 800px;
-	  }
+	section {
+		width: 800px;
+	}
 }
 @media print {
-	  section {
-		    width: 840px;
-	  }
+	section {
+		width: 840px;
+	}
 }
 
 /* date formatting */
 section p span {
 	float: left;
 	text-align: left;
-  padding: 0em 2em 0em 0em;
+	padding: 0em 2em 0em 0em;
 	color: var(--odoriko);
 }
 
