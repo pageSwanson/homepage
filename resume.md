@@ -8,61 +8,62 @@ __GitHub__
 __Website__
 [pageswanson.github.io/homepage](https://pageswanson.github.io/homepage)
 
-
 Professional programmer with experience in production software for a .NET ecosystem with C#, MS-Sql, and ES5/ES6. As of today: teaching coding locally, renewing personal interest in C through independent work, freelancing with ES6 using a functional approach, and learning Rust via a sequencer clone project. Native English speaker learning German (basic competency).
-
-## Education
-
-### Georgia Institute of Technology
-<span>05 / 2017</span>
-
-- __B.S. Computer Engineering__, GPA : 3.5 / 4.0, ECE Opportunity Research Scholar
 
 ## Experience
 
-### Software Developer in Residence / NHFPL - New Haven, Ct
+### Software Developer in Residence / New Haven Free Public Library - New Haven, CT
 <span>05 / 2020 → Present</span>
 
-- __Serves as a community reference__ for learning programming at the library. Sessions on a bi-weekly basis emphasizing core web technologies as an entry point to coding. Holds weekly office hours for help with programming of all kinds (JavaScript, HTML, CSS)
-- __Introduced concepts in audio software__ through graphical programming, creating instruments for performance, composition, and sound processing (PureData)
-- __Lead a database survey series__ where participants followed tutorials on query building, understanding schema, and finally building and running a micro database server (SQLite, deno)
+- __Serves as a community reference__ for learning programming at the library. Bi-weekly sessions emphasizing core web technologies as an entry point to coding. Holds weekly office hours for help with programming of all kinds (JavaScript, HTML, CSS)
+- __Introduced concepts in audio software__ through graphical programming, creating instruments for sound synthesis (PureData)
+- __Lead a database survey series__ where participants followed tutorials on query building, understanding schema, and finally building and running a micro database server (SQLite, Deno)
 <!--
 - __Lead an app-building series__ teaching newcomers about the development landscape and web technologies targeting mobile devices (NativeScript)
 -->
 
-### Full-stack Software Engineer / Abrigo - Remote
+### Full-stack Software Engineer / Abrigo (Sageworks) - Remote
 <span>09 / 2017 → 11/2021</span>
 
 - __Developed applications for large data transfer__ alongside a team of 10 engineers, product managers, and QA to enable a rapid and stable financial import pathway (Agile w/ Jira, C#, .NETStandard)
-- __Provided hourly support__ for client-facing project managers, responding to service requirements for over one thousand financial institutions across the US, with extensive assistance during the 2020 national SBA disbursement period for institutions providing loans at the outset of the COVID-19 pandemic, aiding in the pipeline for subscribers to service more than 1 million in funds
-- __Participated in a frontend initiative__ to introduce resource sharing across teams, build process improvements, and a contemporary frontend workflow (Vue.js)
-- __Scaled a document import service__ to onboard client image repositories with existing financials. Incorporated entity layer for import transactions, unit tests, task logging with line-item feedback. Added an avenue for internal document distribution to customer portals for fast advisory feedback (NHibernate, LINQ, SQL, Moq)
-- __Engineered a guided walkthrough__ by learning component architectures for a modular onboarding interface. Included widgets for parsing initial extracts to generate mappings, check data integrity, and poll services to suggest new configurations. Enabled a subscription pathway with greater agency for the financial institution and inspired a series of similar initiatives (AngularJS, components)
+- __Provided hourly support__ for client-facing project managers, responding to service requirements for over one thousand financial institutions across the US, with extensive assistance during the 2020 national SBA disbursement period for institutions providing loans at the outset of the COVID-19 pandemic, aiding in the pipeline for subscribers to service more than 1 million in funds.
+- __Part of a frontend developer initiative__ encouraging resource sharing across teams, build process and workflow improvements (Vue.js)
+- __Engineered a data migration frontend__ for managers to quickly move configurations, relationships, and financial entities across accounts, with feedback and severity logs to save time on common merge operations. Iterated the backend with 2 engineers to handle arbitrary entities using a factory pattern, resolving foreign key dependencies in schema with entity maps in code (C#, NHibernate, LINQ, SQL)
+- __Scaled a document import service__ to onboard client image repositories with existing financials. Incorporated entity layer for import transactions, unit tests, task logging with line-item feedback. Added an avenue for internal distribution to customers for rapid advisory feedback. Reduced processing times from 24 hour benchmarks to 2 hour run times with comparable loads (C#, SQL, Moq)
+- __Engineered a guided walkthrough__ using component architectures for a modular onboarding interface. Included automations for parsing initial extracts to generate mappings, check data integrity, and poll services to suggest new configurations. On release, over 70% of newly serviced clients began using the walkthrough, relieving effort for project managers during setup. Enabled an automated pathway with greater agency for the financial institution and inspired a series of similar initiatives (AngularJS, components)
 
-### Programming Systems Teaching Assistant / Georgia Institute of Technology - Atlanta, Ga
+### Programming Systems TA / Georgia Institute of Technology - Atlanta, GA
 <span>09 / 2016 → 05 / 2017</span>
 
-- __Assisted Sophomore programmers__ with algorithm development, data structures, and general concepts in theory and design (C, MIPS Assembly)
+- __Assisted a section of more than 50 student programmers__ with algorithm development, data structures, and concepts in the C language. Held comprehensive review sessions and weekly office hours (C, MIPS Assembly)
 
-### Product & Test Engineering Intern / Texas Instruments - Dallas, Tx
+### Product & Test Engineering Intern / Texas Instruments - Dallas, TX
 <span>05 / 2016 → 08 / 2016</span>
 
-- __Designed an internal web portal__ to process and archive data from a test device document. Built a text parser to support decision trees and report creation for a team of 5 engineers (Python)
-- __Experimented with request mocking__ and included form sanitization and server-side input type expectations (Promise, Requests, regex)
+- __Designed an internal web portal__ to process and archive data from a test device spreadsheet. Built a text parser to support decision trees and report creation for a team of 5 engineers (Python)
+- __Created tests with mock requests__ and included form sanitization and server-side input type expectations (Promise, Requests, regex)
 
 <!--
-### Network Intern / Technology Services Organization at Georgia Institute of Technology - Atlanta, Ga
+### Network Intern / Technology Services Organization at Georgia Institute of Technology - Atlanta, GA
 <span>10 / 2014 → 05 / 2016</span>
 
 - __Performed maintenance and patching__ on more than 40 Cisco switches for the College of Computing. Deployed hardware upgrades and assisted in expanding student compute resources
 -->
 
+## Education
+
+### Georgia Institute of Technology - Atlanta, GA
+<span>05 / 2017</span>
+
+- __B.S. Computer Engineering__, GPA : 3.5 / 4.0
+- __Selected Coursework__ Processing of Speech Signals, Digital Signal Processing, Artificial Intelligence, Computer Architecture
+
 ## Projects
 
-### Enmossed.org Static Website
+### [Enmossed.org](enmossed.org) Static Website
 <span>04 / 2021 → 06 / 2021</span>
 
-- __Collaborated to create a new home__ for the Enmossed recording label. Working from a design draft, collaborated to produce a site for resources to discover the recordings produced by the label and information on releases. Using a JSON schema, the site maintainer modifies a single static document consumed by a series of components implemented as functional groups. Explored media query techniques to create a consistent experience across screens, mobile or otherwise (ES6, lit-html, Web Components)
+- __Collaborated to create a new home__ for the Enmossed recording label. From a design draft, developed a page for visitors to discover and stream recordings produced by the label. The site owner maintains a static JSON resource consumed by functional components. Used media queries to create a consistent experience across screens, mobile or otherwise (ES6, lit-html, Web Components)
 
 ### TOVA - A Responsive Musical Synthesizer
 <span>12 / 2016 → 05 / 2017</span>
@@ -84,4 +85,4 @@ Professional programmer with experience in production software for a .NET ecosys
 ### Guthman-Moog Musical Instrument Competition
 <span>2015, 2016, 2017</span>
 
-- __3-time participant and finalist__ in 2015 with an IR emitter PVC slide instrument and in 2016 with a light-based breath transducer to create a wind controller for the Moog Werkstatt synthesizer
+- __3-time participant, 2-time finalist__ designing and building novel synthesizer controllers for the Moog Werkstatt synthesizer (Arduino)

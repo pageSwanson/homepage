@@ -33,7 +33,7 @@ body {
 		transition: margin-left 1s cubic-bezier(0.12, 0, 0.39, 0);
 	}
 	section h1:hover {
-		margin-left: -0.04em;
+		margin-left: 0em;
 	}
 }
 
@@ -69,15 +69,16 @@ address {
 
 /* resume content formatting */
 section h3 {
-	margin: 0.4em .7em 0.4em .7em;
+	margin: 0em .7em 0.4em 0em;
+	display: inline;
 }
 section h2 {
 	margin-bottom: 0.4em;
 }
-section p:not(span), section ul {
+section ul {
 	list-style: none;
-	margin: 0.4em 0em 0em 0em;
-	padding-left: 2em;
+	margin: 0.4em 0em 0.4em 0em;
+	padding-left: 0.7em;
 	text-align: justify;
 }
 section {
@@ -96,10 +97,12 @@ section {
 }
 
 /* date formatting */
+section > h3 + p {
+	float: right;
+	margin: 0em;
+}
 section p span {
-	float: left;
-	text-align: left;
-	padding: 0em 2em 0em 0em;
+	padding: 0em 0em 0em 0.4em;
 	color: var(--odoriko);
 }
 
