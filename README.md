@@ -3,14 +3,25 @@ Source of personal site and markdown resume
 
 ## Setup
 
-For OSX
+### Clone this source
 
-```bash
-brew install --cask pandoc
+### Install Pandoc
+
+https://pandoc.org/installing.html
+
+### Installing wkhtmltopdf
+
+https://wkhtmltopdf.org/downloads.html
+
+or
+
+```
 brew install --cask wkhtmltopdf
 ```
 
-and run
+for OSX
+
+### Run make
 
 ```make
 make
