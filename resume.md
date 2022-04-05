@@ -1,23 +1,24 @@
 # Kenneth (Page) Swanson
+US Citizen
 __Lives in__
 New Haven, CT
 __E-mail__
-kpswanson at gatech dot edu
+kswanso4 at live dot com
 __GitHub__
 [pageswanson](https://github.com/pageswanson)
-__Website__
+__Web__
 [pageswanson.github.io/homepage](https://pageswanson.github.io/homepage)
 
-Professional programmer with experience in production software for a .NET ecosystem with C#, MS-SQL, and ES5/ES6. As of today: teaching coding locally, renewing personal interest in C through independent work, freelancing with JavaScript using a functional approach, and learning Rust via a sequencer clone project. A native English speaker learning German (basic competency).
+Professional programmer with experience in production software for a .NET ecosystem with C#, MS-SQL, and ES5/ES6. As of today: teaching coding locally, renewing personal interest in C through independent work, freelancing with JavaScript using a functional approach, and learning Rust via a sequencer clone project. A native English speaker learning German (beginner competency).
 
 ## Experience
 
 ### Software Developer in Residence / New Haven Free Public Library - New Haven, CT
 <span>05 / 2020 → Present</span>
 
-- __Serves as a community reference__ for learning programming at the library. Bi-weekly sessions emphasizing core web technologies as an entry point to coding. Holds weekly office hours for help with programming of all kinds (JavaScript, HTML, CSS)
+- __Serves as a community reference__ for learning programming at the library. Hosting bi-weekly sessions emphasizing core web technologies as an entry point to coding with 200 participants since initial series. Holds office hours for help with programming projects (JavaScript, HTML, CSS)
 - __Introduced concepts in audio software__ through graphical programming, creating instruments for sound synthesis (PureData)
-- __Lead a database survey series__ where participants followed tutorials on query building, understanding schema, and finally building and running a micro database server (SQLite, Deno)
+- __Led a database survey series__ where students followed tutorials on query building, understanding schema, and finally building and running a micro database server (SQLite, Deno)
 
 ### Full-stack Software Engineer / Abrigo (Sageworks) - Remote
 <span>09 / 2017 → 11/2021</span>
