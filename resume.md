@@ -23,7 +23,7 @@ Professional programmer with experience in production software for a .NET ecosys
 ### Full-stack Software Engineer / Abrigo (Sageworks) - Remote
 <span>09 / 2017 → 11/2021</span>
 
-- __Developed applications for large data transfer__ alongside a team of 10 engineers, product managers, and QA to enable a rapid and stable financial import pathway (Agile w/ Jira, C#, .NETStandard)
+- __Developed applications for large data transfer__ alongside a team of 10 engineers, product managers, and QA to enable a rapid and stable financial import pathway (Agile w/ Jira, Git & Bitbucket)
 - __Provided hourly support__ for client-facing project managers, responding to service requirements for over 1000 financial institutions across the US, with extensive assistance during the 2020 national SBA disbursement period for institutions providing loans at the outset of the COVID-19 pandemic, aiding in the pipeline for subscribers to service more than 1 million in funds.
 - __Part of a frontend developer initiative__ encouraging resource sharing across teams, build process and workflow improvements (Vue.js)
 - __Engineered a data migration frontend__ for managers to quickly move configurations, relationships, and financial entities across accounts, with feedback and severity logs to save time on common merge operations. Iterated the backend with 2 engineers to handle arbitrary entities using a factory pattern, resolving foreign key dependencies in schema with entity maps in code (C#, NHibernate, LINQ, SQL)
