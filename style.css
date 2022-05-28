@@ -26,17 +26,6 @@ body {
 	}
 }
 
-/* header */
-@media only screen and (hover: hover) {
-	section h1 {
-		margin-left: -4.3em;
-		transition: margin-left 1s cubic-bezier(0.12, 0, 0.39, 0);
-	}
-	section h1:hover {
-		margin-left: 0em;
-	}
-}
-
 h1 {
 	color: var(--bluetrain);
 }
