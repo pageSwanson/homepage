@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<link href="style.css" rel="stylesheet">
 		<title>swa p k</title>
-		<script type="text/javascript" src="https://unpkg.com/pts@latest/dist/pts.js"></script>
+		<script type="text/javascript" src="https://unpkg.com/pts@0.10.10/dist/pts.min.js"></script>
 	</head>
 	<body>
 		<div id="graphic"></div>
@@ -31,24 +31,26 @@
 		</address>
 	</body>
 	<script>
-        "use strict";
-        Pts.quickStart( "#graphic", "#EDEDE9" )( function(time, ftime) {
-            let point_group = new Group(space.center,
-                                        new Pt(space.width, space.center.y));
+   "use strict";
 
-            let segment_ratio = Num.cycle((time%14000)/14000, Shaping.logSigmoid);
 
-            let radians = new Array(Math.floor(segment_ratio * 220));
-            radians.fill(2 * Math.PI / radians.length);
+   Pts.quickStart( "#graphic", "#EDEDE9" )( function(time, ftime) {
+       let point_group = new Group(space.center,
+                                   new Pt(space.width, space.center.y));
 
-            radians.forEach((x, idx) => {
-                let from_point = new Pt(point_group[1]);
-                point_group.rotate2D(x);
-                point_group.scale((radians.length - idx) / radians.length);
+       let segment_ratio = Num.cycle((time%14000)/14000, Shaping.logSigmoid);
 
-                form.stroke("#2E5460", .6).line( point_group );
-                form.strokeOnly("#5B4C40").arc(space.center, point_group[1].$subtract(space.center).magnitude(), from_point.angle(), x, false);
-            });
-        });
-    </script>
+       let radians = new Array(Math.floor(segment_ratio * 220));
+       radians.fill(2 * Math.PI / radians.length);
+
+       radians.forEach((x, idx) => {
+           let from_point = new Pt(point_group[1]);
+           point_group.rotate2D(x);
+           point_group.scale((radians.length - idx) / radians.length);
+
+           form.stroke("#2E5460", .6).line( point_group );
+           form.strokeOnly("#5B4C40").arc(space.center, point_group[1].$subtract(space.center).magnitude(), from_point.angle(), x, false);
+       });
+   });
+  </script>
 </html>
