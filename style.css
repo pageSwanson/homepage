@@ -99,3 +99,10 @@ section p span {
 .title {
 	display: none;
 }
+
+/* recording */
+files {
+	display: inline-block;
+	height: 24em;
+	width: 82%;
+}
