@@ -1,9 +1,9 @@
 # Kenneth (Page) Swanson
 US Citizen
 __Lives in__
-New Haven, CT
-__E-mail__
-kswanso4 at live dot com
+Germany
+__Email__
+ka.pageswanson at proton.me
 __GitHub__
 [pageswanson](https://github.com/pageswanson)
 __Web__
@@ -58,7 +58,7 @@ Professional programmer with experience in production software for a .NET ecosys
 
 ## Projects
 
-### [Enmossed.org](enmossed.org) Static Website
+### [Enmossed.org](https://enmossed.org) Static Website
 <span>04 / 2021 → 06 / 2021</span>
 
 - __Collaborated to create a new home__ for the Enmossed recording label. From a design draft, developed a page for visitors to discover and stream recordings produced by the label. The site owner maintains a static JSON resource consumed by functional components. Used media queries to create a consistent experience across screens - mobile or otherwise (ES6, lit-html, Web Components)
