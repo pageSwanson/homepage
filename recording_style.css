@@ -1,0 +1,8 @@
+recordings {
+  display: flex;
+}
+recording {
+  margin: 0em 0.4em 0em 0.4em;
+  display: inline-block;
+  width: 350px;
+}

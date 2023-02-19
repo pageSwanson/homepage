@@ -3,40 +3,26 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="recording_style.css" />
     <title>swa p k</title>
-    <script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="hi5j3ob1mq8qj19"></script>
   </head>
   <body>
     <h2>Recordings</h2>
-    <p>
-      You can get physical editions from <a href="http://corephone.bandcamp.com">corephone.bandcamp.com</a>. I can also send you copies if you mail me <em>ka dot pageswanson @ proton dot me</em>
-    </p>
-    <files id="feedback-works"></files>
-    <files id="from-the-thaw"></files>
-    <script type="text/javascript">
-      const links = [
-          {
-              id: "feedback-works",
-              link: "https://www.dropbox.com/sh/wtxg9yj9xywsimv/AAAMCPrubgXecI1NWa-0Lnwaa?dl=0",
-          },
-          {
-              id: "from-the-thaw",
-              link: "https://www.dropbox.com/sh/xtu5pf421rln9o3/AABxElw7d7uQ46cHdLeMvvE-a?dl=0",
-          }
-      ];
-      links.forEach(link => {
-          const options = {
-              link: link.link,
-              file: {
-                  zoom: "fit"
-              },
-              folder: {
-                  view: "grid",
-                  headerSize: "small"
-              }
-          }
-          Dropbox.embed(options, document.querySelector(`#${link.id}`));
-      });
-    </script>
+    <address>
+      Physical editions via direct mail by contact to <br>
+      <span>ka.pageswanson at proton.me</span>
+    </address>
+    <recordings>
+      <recording>
+        <h3>2022</h3>
+        <iframe style="border: 0; width: 350px; height: 537px;" src="https://bandcamp.com/EmbeddedPlayer/album=2442664278/size=large/bgcol=333333/linkcol=ffffff/package=626999332/tracklist=false/transparent=true/" seamless><a href="https://corephone.bandcamp.com/album/from-the-thaw">From The Thaw by STUMPED</a></iframe>
+        <p>First tape from band with <a href="https://adambuffington.bandcamp.com/">Adam Buffington</a>. Pleasant or excrutiating sample mangling and repurpose effort. Follow-up in 2023. Edition of 50.</p>
+      </recording>
+      <recording>
+        <h3>2020</h3>
+        <iframe style="border: 0; width: 350px; height: 537px;" src="https://bandcamp.com/EmbeddedPlayer/album=3014061086/size=large/bgcol=333333/linkcol=ffffff/package=1656127605/tracklist=false/transparent=true/" seamless><a href="https://corephone.bandcamp.com/album/feedback-works">Feedback Works by Corephone</a></iframe>
+        <p>Solo disc from Corephone. Experimentation with feedbacking paths. Multiple attempts, all on record - deviations, too. Documented by diagram. Edition of 25.</p>
+      </recording>
+    </recordings>
   </body>
 </html>
