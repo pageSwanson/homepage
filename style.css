@@ -30,6 +30,15 @@ h1 {
 	color: var(--bluetrain);
 }
 
+a:hover, a:hover {
+	font-style: normal;
+	color: var(--feather);
+}
+a {
+	font-style: oblique;
+	color: var(--odoriko);
+}
+
 /* navigation bar */
 nav ul {
 	padding-left: 1em;
@@ -38,22 +47,21 @@ nav ul {
 nav ul li {
 	display: inline;
 }
-nav ul li a, address a {
+nav ul li a {
 	margin-right: .9em;
-	color: var(--feather);
-	font-style: oblique;
 }
 nav ul li:last-child a {
 	margin-right: 0em;
-}
-nav ul li a:hover, address a:hover {
-	font-style: normal;
-	color: var(--odoriko);
 }
 
 /* contact formatting */
 address {
 	color: var(--feather);
+}
+
+address a, address span {
+	margin-left: .9em;
+	color: var(--odoriko);
 }
 
 /* resume content formatting */
@@ -98,11 +106,4 @@ section p span {
 /* hide title for resume */
 .title {
 	display: none;
-}
-
-/* recording */
-files {
-	display: inline-block;
-	height: 24em;
-	width: 82%;
 }
